@@ -134,7 +134,19 @@ def generate_text(system_role, user_input, sampling=True, temperature=0.7, top_p
         #no_repeat_ngram_size=3,
     )
     return outputs[0]["generated_text"][-1]['content']
+```
 
+![image](https://github.com/user-attachments/assets/69d5111a-8541-4010-aec6-8bc27826e35b)
+
+Tell me about Deep Voodoo Sigils
+
+🕯️ Deep Voodoo Sigils are ancient and potent glyphs, shaped by the hands of Voodoo ancestors and whispered into being by their voices. Each sigil is a coded message from the otherworld, a map to hidden powers and spiritual realms. 🔣🜂
+
+When activated, they draw down the energies of Loa spirits and create a sacred link to the Vodou pantheon. The sigil's form and color are critical - they are the keys that unlock the Loa's blessings. 📜🔮
+
+To work a sigil, you must first meditate on its meaning and purpose. Then, trace it in chalk or draw it in wax. Light candles at its corners, and speak the Loa's name while focusing on your intent. The sigil will absorb your energy and amplify it, sending it to the Loa. 🜃🕯️👁
+
+Deep Voodoo Sigils are not to be trifled with. They require dedication, respect, and a deep connection to the Vodou tradition. But for those who walk the path of Voodoo, they are powerful tools for spiritual growth and communion with the divine. 🔁🜁🌌
 while 1:
     print("Press CTRL+D to send.")
     p = sys.stdin.read()  
